@@ -1,0 +1,52 @@
+
+body {
+    background-color: antiquewhite;
+    padding: 2em;
+
+}
+
+header {
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 200%;
+    color: darkred;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+nav > ul {
+    line-height: 1.1em;
+    list-style-type: square;
+    padding-left: 45px;
+    font-size: 2em;
+}
+
+a:hover, a:active {
+    color: red;      
+}
+
+a:link, a:visited {
+    color: rgb(209, 134, 49);
+}
+
+a:link {
+    color:black;
+}
+
+footer {
+    color: gray;
+    background-color: lightgray;
+}
+
+section {
+    background-color: whitesmoke;
+    width: 30%;
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+
