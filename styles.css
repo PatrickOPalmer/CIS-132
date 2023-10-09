@@ -1,29 +1,26 @@
 
 body {
+    max-width: 80%;
+
+    height: 500px;
     background-color: antiquewhite;
     padding: 2em;
-
+    margin: auto;   
 }
 
 header {
-    font-size: 200%;
+    font-size: 150%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
     font-size: 200%;
     color: darkred;
+    text-align: center;
 }
 
 h2 {
     font-size: 150%;
-}
-
-nav > ul {
-    line-height: 1.1em;
-    list-style-type: square;
-    padding-left: 45px;
-    font-size: 2em;
 }
 
 a:hover, a:active {
@@ -38,15 +35,59 @@ a:link {
     color:black;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 99%;
+}
+
 footer {
+    padding: 0.1em;
     color: gray;
     background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;   
+    text-align: right;
+    font-size: 1.2em;
 }
 
 section {
     background-color: whitesmoke;
-    width: 30%;
+    width: 90%;
     font-size: 1.2em;
     padding-left: 25px;
 }
 
+#nav_menu {
+    list-style-type: none;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    }
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 2em;
+}
+
+main {
+    width: 50%;
+    border-right: 2px solid darkgray;
+    float: left;
+    height: 350px;
+}
+
+aside {
+    width: 40%;
+    float:right;
+}
+
+
+#nav_menu > ul {
+    line-height: 1.1em;
+    list-style-type: square;
+    padding-left: 45px;
+    font-size: 2em;
+}
